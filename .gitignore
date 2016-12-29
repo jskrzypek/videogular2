@@ -1,17 +1,40 @@
 #################
 ## Misc
 #################
+# old .gitignore Misc
+#################
+# **/.DS_Store
+# node_modules
+# npm-debug.log
+# **/*.js
+# **/*.js.map
+# **/*.d.ts
+# **/*.metadata.json
+# coverage
+# compiled
+# !karma.conf.js
+# !karma-test-shim.js
+#################
+# .npmignore Misc
+#################
 **/.DS_Store
 node_modules
 npm-debug.log
-**/*.js
-**/*.js.map
-**/*.d.ts
-**/*.metadata.json
 coverage
 compiled
-!karma.conf.js
-!karma-test-shim.js
+docs
+**/*.ts
+*.md
+karma.conf.js
+karma-test-shim.js
+tsconfig.json
+tslint.json
+.travis.yml
+# .gitignore
+
+!**/*.js
+!**/*.d.ts
+!**/*.metadata.json
 
 #################
 ## JetBrains
